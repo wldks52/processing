@@ -78,5 +78,5 @@ outputs = hub_module(tf.constant(content_image), tf.constant(style_image))
 stylized_image = outputs[0]
 show_n([content_image, style_image, stylized_image], titles=['Original content image', 'Style image', 'Stylized image'])
 ```
-width="200" src="![지안_해바라기](https://user-images.githubusercontent.com/62795614/98797198-9e319d00-244f-11eb-826a-d44352c11598.PNG)"
+"![지안_해바라기](https://user-images.githubusercontent.com/62795614/98797198-9e319d00-244f-11eb-826a-d44352c11598.PNG)"
 
